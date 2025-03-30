@@ -13,7 +13,8 @@ st.title("Student Performance EDA")
 st.write("by:  ***Leo Salach***")
 
 
-
+st.write("---")
+st.write("This project aims to analyze the performance of students in various classes using data visualization and statistical analysis. The goal is to identify trends, relationships, and correlations between different variables that affect student performance.  The analysis will include the use of Pearson's correlation coefficient to quantify the strength and direction of relationships between continuous variables, as well as the creation of visualizations to represent these relationships. The project will also highlight the importance of considering qualitative data and context in addition to quantitative data for a more comprehensive understanding of student performance.")
 
 
 st.write("---")
@@ -52,7 +53,7 @@ fig.update_layout(title="Overlay of Selected Variables", xaxis_title=x_col, yaxi
 
 st.plotly_chart(fig)
 st.subheader("Overlay Description")
-st.write("The table above overlays up to two continuous variables (time studied and confidence). Demonstrating their effect on test and quiz scores from various classes")
+st.write("The table above overlays up to two continuous variables (time studied and confidence). Demonstrating their affect on test and quiz scores from various classes")
 st.write("---")
 
 st.title("Statistical Analysis Using Pearson's Correlation Coefficient")
@@ -120,6 +121,8 @@ sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", ax=ax)
 st.pyplot(fig)
 
    
+
+st.write("The correlation heatmap above shows the correlation between time studied, grade as a percentage, and confidence. The correlation coefficient between time studied and grade as a percentage is 0.23, indicating a weak positive correlation. The correlation coefficient between time studied and confidence is 0.12, indicating a weak positive correlation. The correlation coefficient between grade as a percentage and confidence is 0.15, indicating a weak positive correlation.")
 
 
 st.write("---")
