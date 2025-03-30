@@ -90,7 +90,7 @@ st.write("Ȳ  = Mean of the y values in the data set (Total Time Studied)")
 
 st.write("The Numerator computes the covariance of the X and Y variables. In other words, it determines if the variables are related or if a change in one variable results in a change of the other.")
 
-st.write("The Denominator computes the standard deviation of the X and Y variables. In other words, it determines how much the variables vary from their mean. The denominator is used to normalize the covariance, which allows for a more accurate comparison of the strength of the relationship between the two variables.")
+st.write("The Denominator computes the standard deviation of the X and Y variables. In essence, it determines how much the variables vary from their mean. The denominator is used to normalize the covariance, which allows for a more accurate comparison of the strength of the relationship between the two variables.")
 
 st.write("---")
 
@@ -111,7 +111,7 @@ else:
 
 
     # Plot the heatmap
-st.subheader("Correlation Heatmap")
+st.subheader("Correlation Heatmap (Generated Using Python)")
 
 
 st.write("The heat map is a visual representation of the correlation between the three continuous variables: Time Studied, Grade as a Percentage, and Confidence. Using the color gradient to illustrate the strength and direction of the relationships between these variables, the heat map gives a visual representation of the variables' influence on one another.")
