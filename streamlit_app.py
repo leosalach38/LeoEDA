@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
+import plotly
 import plotly.express as px
 import plotly.graph_objects as go
 import statsmodels.api as sm
