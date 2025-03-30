@@ -81,7 +81,7 @@ pexpect==4.9.0
 pillow==11.1.0
 platformdirs==4.3.6
 Plost==0.2.5
-plotly==6.0.1
+plotly
 prometheus_client==0.21.1
 prompt_toolkit==3.0.50
 protobuf==5.29.4
