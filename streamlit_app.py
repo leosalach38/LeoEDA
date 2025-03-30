@@ -14,7 +14,7 @@ st.write("by:  ***Leo Salach***")
 
 
 st.write("---")
-st.header("Objective")
+st.header("Objectives")
 st.write("This project aims to analyze the performance of students in various classes using data visualization and statistical analysis. The goal is to identify trends, relationships, and correlations between different variables that affect student performance.  The analysis will include the use of Pearson's correlation coefficient to quantify the strength and direction of relationships between continuous variables, as well as the creation of visualizations to represent these relationships. The project will also highlight the importance of considering qualitative data and context in addition to quantitative data for a more comprehensive understanding of student performance.")
 
 
