@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 
 st.title("Student Performance EDA")
+st.write("by: ***Leo Salach***")
 
 
 
